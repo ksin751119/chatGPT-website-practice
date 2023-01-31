@@ -1,0 +1,12 @@
+import "./App.css";
+import React from 'react';
+
+function WelcomePage(props){
+  return (
+  <div>
+    <h1>Welcome to the game, {props.username}!</h1>
+  </div>
+  )
+};
+
+export default WelcomePage;
